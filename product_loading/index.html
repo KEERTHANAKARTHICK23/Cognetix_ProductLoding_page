@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1 class="logo">SmartProduct</h1>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#pricing">Pricing</a>
+            <button id="openModal" class="primary-btn">Sign Up</button>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h2>Experience the Future of Smart Living</h2>
+        <p>Our product makes your daily life easy, fast, and efficient.</p>
+        <button class="primary-btn">Buy Now</button>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="features">
+        <h2>Product Features</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>High Performance</h3>
+                <p>Optimized for speed and smooth operation.</p>
+            </div>
+
+            <div class="card">
+                <h3>Smart Automation</h3>
+                <p>Automatically adapts to your needs using AI.</p>
+            </div>
+
+            <div class="card">
+                <h3>24/7 Support</h3>
+                <p>We are always ready to assist you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Users Say</h2>
+
+        <div class="grid">
+            <div class="card">
+                <p>"Amazing product! It made my workflow so easy."</p>
+                <h4>- John</h4>
+            </div>
+
+            <div class="card">
+                <p>"Highly recommend! Best investment of the year."</p>
+                <h4>- Priya</h4>
+            </div>
+
+            <div class="card">
+                <p>"Excellent quality and customer support."</p>
+                <h4>- Ahmed</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="pricing">
+        <h2>Choose Your Plan</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Basic</h3>
+                <p>$19 / month</p>
+                <button class="primary-btn">Buy Now</button>
+            </div>
+
+            <div class="card highlight">
+                <h3>Premium</h3>
+                <p>$49 / month</p>
+                <button class="primary-btn">Buy Now</button>
+            </div>
+
+            <div class="card">
+                <h3>Ultimate</h3>
+                <p>$99 / month</p>
+                <button class="primary-btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 SmartProduct. All Rights Reserved.</p>
+    </footer>
+
+    <!-- SIGNUP MODAL -->
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <h2>Sign Up</h2>
+
+            <form id="signupForm">
+                <input type="email" id="emailInput" placeholder="Enter your email" required>
+                <button type="submit" class="primary-btn">Submit</button>
+            </form>
+
+            <button id="closeModal" class="close-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
